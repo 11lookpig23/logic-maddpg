@@ -1,0 +1,11 @@
+
+height: 8 agents: 5
+1. random: -0.4859
+2. pg: -0.4542
+3. maddpg: -0.1431
+4. rule: -0.0040
+
+hyper-para:
+maddpg:
+
+pg:

@@ -1,0 +1,19 @@
+
+height: 8 agents: 5
+1. random: -0.4859
+2. pg: -0.4542
+3. maddpg: -0.1431
+4. rule: -0.0040
+
+hyper-para:
+
+maddpg:
+    n_episode = 100
+    max_steps = 160
+    episodes_before_train = 15
+    Actor & Critic lr: 0.001
+pg:
+    MAX_EPISODES = 3000
+    MAX_EP_STEPS = 160
+    learning_rate=0.004,
+    reward_decay=0.9995,
