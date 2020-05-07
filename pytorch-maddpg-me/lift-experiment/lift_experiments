@@ -4,12 +4,36 @@ height: 8 agents: 5
 2. pg: -0.4542
 3. maddpg: -0.1431
 4. rule: -0.0040
+5. logic_maddpg:-0.0987
 
 height: 15 agents: 5
 1. random: -0.486
 2. pg:-0.460
 3. maddpg: -0.1457
 4. rule: -0.00958
+5. logic_maddpg:-0.0863
+
+
+height: 10 agents: 3
+1. random: -0.484
+2. pg: -0.1752
+3. maddpg: -0.1737
+4. rule: -0.002014
+5. logic_maddpg:-0.0857
+
+height: 10 agents: 5
+1. random: -0.4878
+2. pg: -0.3678
+3. maddpg：-0.1435
+4. rule: -0.0283
+5. logic_maddpg: -0.0835
+
+height: 10 agents: 7
+1. random: -0.4925
+2. pg: -0.4915
+3. maddpg: -0.1827
+4. rule: -0.1558
+5. logic_maddpg:-0.115
 
 height: 8 agents: 2
 1. random: -0.4881
@@ -22,24 +46,6 @@ height: 8 agents: 8
 2. pg:-0.4914
 3. maddpg: -0.168
 4. rule: -0.1683
-
-height: 10 agents: 3
-1. random: -0.484
-2. pg: -0.1752
-3. maddpg: -0.1737
-4. rule: -0.002014
-
-height: 10 agents: 5
-1. random: -0.4878
-2. pg: -0.3678
-3. maddpg：-0.1435
-4. rule: -0.0283
-
-height: 10 agents: 7
-1. random: -0.4925
-2. pg: -0.4915
-3. maddpg: -0.1827
-4. rule: -0.1558
 
 hyper-para:
 
