@@ -1,0 +1,20 @@
+## 
+1. predicate 选择 front back nofront noback
+2. 禁止的规则, P,N 反向; 禁止与指定结合对比
+3. 数学解释, MDP...
+4. RL+DILP; 二分X
+5. rule: must clear,准确
+6. 融合 maddpg + NLRL 自动化, 边学rule边训练;
+7. 利用critic; include 所有agent,learn social rules;
+
+
+对ag2h2，用critic learn: busy, NObusy,line,before......
+直接利用dilp拟合Q函数,效果会如何?
+input: 
+    state --decoder-> atoms
+    actions --decoder--> atoms
+    atoms  ==> forward dilp =MLP=> Q 
+target-Q 是什么
+
+适用范围: 关系型的RL,推断A，B的关系 或是命题型；再think??
+
